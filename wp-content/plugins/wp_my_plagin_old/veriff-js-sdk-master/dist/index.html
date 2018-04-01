@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="veriff-mount">
+
+    </div>
+    <script src="veriff.dev.js"></script>
+    <script type="text/javascript">
+      const veriff = Veriff('8e4f7cd8-7a19-4d7d-971f-a076407ee03c',{ features: ['selfid', 'video_call']});
+      veriff.mount('veriff-mount')
+      console.log(veriff.id);
+    </script>
+  </body>
+</html>
